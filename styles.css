@@ -6,4 +6,13 @@ body {
 h1 {
     color: #f3f725;
     text-align: 
+
+}
+.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
+.project {
+width: 30%;
+margin: 10px;
+padding: 20px 10px;
+background: #f3f725; /* pick a color */
+border-radius: 25%;
 }

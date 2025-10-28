@@ -10,9 +10,16 @@ h1 {
 }
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
 .project {
-width: 30%;
-margin: 10px;
+.affinity {
+  width: 60%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centers it */
+}
+
 padding: 20px 10px;
 background: #f3f725; /* pick a color */
 border-radius: 25%;
 }
+

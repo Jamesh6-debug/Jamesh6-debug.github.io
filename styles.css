@@ -11,8 +11,8 @@ h1 {
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
 .project {
 .affinity {
-  width: 60%;
-  max-width: 800px;
+  width: 20%;
+  max-width: 100px;
   height: auto;
   display: block;
   margin: 0 auto; /* centers it */

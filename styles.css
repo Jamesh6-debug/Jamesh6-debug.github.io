@@ -10,16 +10,18 @@ h1 {
 }
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
 .project {
-.affinity {
-  width: 20%;
-  max-width: 100px;
+  .affinity-img {
+  width: 400px;     /* fixed smaller size */
   height: auto;
   display: block;
-  margin: 0 auto; /* centers it */
+  margin: 20px auto;
+}
+
 }
 
 padding: 20px 10px;
 background: #f3f725; /* pick a color */
 border-radius: 25%;
 }
+
 

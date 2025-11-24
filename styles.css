@@ -1,23 +1,23 @@
-<!-- page background and main font -->
+/* page background and main font */
 body {
     background: #d72bfb;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-<!-- main heading -->
+/* main heading */
 h1 {
     color: #f3f725;
     text-align: center;
 }
 
-<!-- Project container -->
+/* Project container */
 .projects {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-<!-- project boxes -->
+/* project boxes */
 .project {
     background: #f3f725;
     padding: 20px;
@@ -25,12 +25,13 @@ h1 {
     width: 300px;
 }
 
-<!-- images -->
+/* images */
 img {
     width: 100%;
     height: auto;
     display: block;
     margin: 10px 0;
 }
+
 
 

@@ -10,14 +10,14 @@ h1 {
     text-align: center;
 }
 
-/* Project container */
+/* project container */
 .projects {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-/* project boxes */
+/* each project box */
 .project {
     background: #f3f725;
     padding: 20px;
@@ -25,7 +25,7 @@ h1 {
     width: 300px;
 }
 
-/* images */
+/* images (including affinity image) */
 img {
     width: 100%;
     height: auto;
